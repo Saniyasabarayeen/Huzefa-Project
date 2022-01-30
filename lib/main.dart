@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:huzefa/login_screen.dart';
+import 'package:huzefa/screen/auth/login_screen.dart';
 
 void main() {
   runApp(MyApp());
