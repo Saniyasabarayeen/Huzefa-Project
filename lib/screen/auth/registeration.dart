@@ -62,6 +62,7 @@ class _RegisterationState extends State<Registeration> {
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 30),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(15),
                                   controller: firstnamename,
                                   obsecureatext: false,
@@ -73,6 +74,7 @@ class _RegisterationState extends State<Registeration> {
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 10),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(15),
                                   controller:latnamecontroller,
                                   obsecureatext: true,
@@ -84,6 +86,7 @@ class _RegisterationState extends State<Registeration> {
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 10),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(15),
                                   controller: emailcontroller,
                                   obsecureatext: true,
@@ -95,6 +98,7 @@ class _RegisterationState extends State<Registeration> {
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 10),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(15),
                                   controller: passwordcontroller,
                                   obsecureatext: true,
@@ -106,6 +110,7 @@ class _RegisterationState extends State<Registeration> {
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 10),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(15),
                                   controller: cellcontroller,
                                   obsecureatext: true,
@@ -117,6 +122,7 @@ class _RegisterationState extends State<Registeration> {
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 10),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(15),
                                   controller: zipcontroller,
                                   obsecureatext: true,

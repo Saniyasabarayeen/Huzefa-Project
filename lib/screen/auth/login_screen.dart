@@ -58,6 +58,7 @@ class _LoginState extends State<Login> {
                             padding: const EdgeInsets.only(
                                 left: 30, right: 30, top: 30),
                             child: CustomTextField(
+                              style: GoogleFonts.mcLaren(),
                               contentpadding: EdgeInsets.all(15),
                               controller: emailcontroller,
                               obsecureatext: false,
@@ -69,6 +70,7 @@ class _LoginState extends State<Login> {
                             padding: const EdgeInsets.only(
                                 left: 30, right: 30, top: 30),
                             child: CustomTextField(
+                              style: GoogleFonts.mcLaren(),
                               contentpadding: EdgeInsets.all(15),
                               controller: passwordcontroller,
                               obsecureatext: true,

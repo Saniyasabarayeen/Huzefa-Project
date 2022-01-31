@@ -62,6 +62,7 @@ TextEditingController emailcontroller=TextEditingController();
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 30),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding:EdgeInsets.all(10),
                                   controller: emailcontroller,
                                   obsecureatext: false,
@@ -73,6 +74,7 @@ TextEditingController emailcontroller=TextEditingController();
                                 padding: const EdgeInsets.only(
                                     left: 30, right: 30, top: 15),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(10),
                                   controller: passwordcontroller,
                                   obsecureatext: true,
@@ -83,6 +85,7 @@ TextEditingController emailcontroller=TextEditingController();
                               Padding(
                                 padding:EdgeInsets.only(left: 30, right: 30, top: 15 ),
                                 child: CustomTextField(
+                                  style: GoogleFonts.mcLaren(),
                                   contentpadding: EdgeInsets.all(10),
                                   controller:confirmpassword ,
                                   obsecureatext: true,
@@ -100,8 +103,7 @@ TextEditingController emailcontroller=TextEditingController();
                                       Navigator.push(context, MaterialPageRoute(builder: (context) =>Home()));
                                     }else{
                                      Fluttertoast.showToast(msg: 'password not match');
-                                  print("dgsx");
-                                    }
+                                    };
                                   },
                                   child: Text(
                                     "Reset",
